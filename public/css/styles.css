@@ -1,0 +1,120 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    font:16px;
+}
+
+button{
+  border:1px solid black;
+  padding:9px 33px;
+  border-radius:99px;
+  text-transform:lowercase;
+  color:black;
+  background-color:white;
+  font-size:1.11rem;
+}
+
+button:hover{
+  color:white;
+  background-color:black;
+}
+
+h1{
+  text-transform:lowercase;
+  text-align:center;
+  margin-top:33px;
+  margin-bottom:33px;
+}
+
+h3{
+  text-transform:uppercase;
+  text-align:center;
+  margin-top:33px;
+}
+
+input{
+  padding:6px 3px;
+  margin-left:30px;
+}
+
+li{
+  list-style:none;
+}
+
+strong{
+  font-weight:600;
+  margin-left:9px;
+  margin-right:3px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  input{
+    width:86%;
+  }
+  .input{
+    margin-right:-3px;
+  }
+  .button{
+    display:flex;
+    justify-content:right;
+    margin-right:60px;
+  }
+  .title{
+    margin-left:30px;
+  }
+}
+
+
+@media only screen and (min-width: 767px) {
+  input{
+    width:400px;
+  }
+  .input{
+    text-align:right;
+    margin-right:-23px;
+  }
+  .button{
+    display:flex;
+    justify-content:center;
+  }
+  .flex{
+    display:flex;
+  }
+  .title{
+    width: 36%;
+  }
+}
+
+.center{
+  text-align:center;
+}
+
+.input{
+  font-size:1.333rem;
+  text-transform:uppercase;
+  margin-top:6px;
+}
+
+.mb-11{
+  margin-bottom:11px;
+}
+
+.mb-21{
+  margin-bottom:21px;
+}
+
+.mt-11{
+  margin-top:11px;
+}
+
+.mt-21{
+  margin-top:21px;
+}
+
+.mt-33{
+  margin-top:33px;
+}
