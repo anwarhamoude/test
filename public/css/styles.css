@@ -66,6 +66,10 @@ strong{
   .title{
     margin-left:30px;
   }
+  .card{
+    margin:4px;
+    padding:20px;
+  }
 }
 
 
@@ -87,6 +91,21 @@ strong{
   .title{
     width: 36%;
   }
+  .card{
+    margin:40px;
+    padding:40px;
+  }
+}
+
+.card{
+  display:flex;
+  flex-direction:column;
+  text-align:left;
+  justify-content:center;
+  text-decoration:none;
+  color: #636b6f;
+  border: 1px solid #636b6f;
+  border-radius:11px;
 }
 
 .center{
@@ -99,12 +118,33 @@ strong{
   margin-top:6px;
 }
 
+.project{
+  display:flex;
+  text-align:right;
+  justify-content:flex-end;
+  font-size:.8em;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:bold;
+  margin-right:11px;
+  margin-top:6px;
+  color: #636b6f;
+}
+
+.project:hover{
+  color:green;
+}
+
 .mb-11{
   margin-bottom:11px;
 }
 
 .mb-21{
   margin-bottom:21px;
+}
+
+.ml{
+  margin-left:2rem;
 }
 
 .mt-11{

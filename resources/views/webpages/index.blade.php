@@ -3,7 +3,7 @@
 @section('content')
 
 <div id="app">
-
+  <a href="{{ url('/project_details') }}" class="project">Project Details</a>
   <h3>ANWAR HAMOUDE 808-209-3251</h3>
   <h1>exquisite form demo</h1>
 
